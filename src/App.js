@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
-import Title from './components/Title';
 import PlanetCard from './components/PlanetCard';
 
 class App extends React.Component {
@@ -9,9 +8,8 @@ class App extends React.Component {
     return (
       <div>
         <Header />
-        {/* <Title headline="Planetas" /> */}
         <SolarSystem />
-        <PlanetCard planetName="" planetImage="" />
+        {/* <PlanetCard planetName="" planetImage="" /> */}
       </div>
     );
   }
