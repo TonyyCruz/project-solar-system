@@ -1,3 +1,20 @@
 .App {
   text-align: center;
 }
+
+.mission-box {
+  border: 2px solid rgb(178, 178, 178);
+  border-radius: 5px;
+  display: inline-block;
+  height: 250px;
+  margin: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+.planet-box {
+  border: 2px solid grey;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 5px;
+}
